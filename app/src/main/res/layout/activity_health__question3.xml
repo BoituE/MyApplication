@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/ic_launcher_round"
+    android:background="@drawable/apple"
     tools:context="com.example.admin.quizmul.Health_Question3">
     <LinearLayout
         android:layout_width="match_parent"
