@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quizmul.MainActivity"
+    android:orientation="vertical"
+    android:background="#dcf700ff">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/her_thingy"
+            />
+        <Button
+            android:id="@+id/songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Songs"
+            android:onClick="onClicksng"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/scrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Scriptures"
+            android:padding="10dp"
+            android:onClick="onClickscp"/>
+
+        <Button
+            android:id="@+id/health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="health"
+            android:padding="10dp"
+            android:onClick="onClickhlt"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>

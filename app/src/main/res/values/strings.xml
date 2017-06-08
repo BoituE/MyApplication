@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizMul</string>
+
+    <string name="script_question1">
+         Jeremiah 29:11 :For I know plans I have for you, declares the Lord,
+        "I have plan harm, plans to give you expected futures".
+    </string>
+    <string name="script_question2">
+       Revelation 1:8 "I am the alpha and Omega", says the Lord god, who is and,
+        was who is to come the Almighty".
+    </string>
+    <string name="script_question3">
+       Psalms 100:2 Worship the Lord with gladness, come before him with joyful songs.
+    </string>
+    <string name="script_question4">
+      Proverbs 14:10 Each heart know its own bitterness, and no one else can share its joy.
+    </string>
+    <string name="script_question5">
+        Romans 4:7 "Blessed are those transgressions are forgiven, whose sins are covered.
+    </string>
+</resources>

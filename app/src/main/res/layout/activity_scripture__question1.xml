@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.admin.quizmul.Scripture_Question1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text=" SCRIPTURES "
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="1. Jeremiah 29:11 For I know plans I have for you, declares the Lord, I have plan to prosper and not harm, plans to give you expected futures"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/tru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:onClick="onClicktr"
+            android:layout_marginLeft="24sp"
+            android:layout_marginRight="24sp"/>
+
+
+        <Button
+            android:id="@+id/fals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:onClick="onClickfls"
+            android:layout_marginLeft="24sp"
+            android:layout_marginRight="24sp"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:onClick="onClickbck"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24sp"
+        android:layout_marginRight="24sp"
+        android:layout_marginBottom="23dp" />
+
+</RelativeLayout>

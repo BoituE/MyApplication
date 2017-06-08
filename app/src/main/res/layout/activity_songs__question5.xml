@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00d0ff"
+    tools:context="com.example.admin.quizmul.Songs_Question5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30sp"
+            android:textSize="50sp"
+            android:text=" SONGS "
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30sp"
+            android:textSize="30sp"
+            android:text=" 5. IT WASN'T EASY "
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/cece"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginRight="24sp"
+            android:onClick="onClicktsc"
+            android:text="CeCe Winans" />
+
+        <Button
+            android:id="@+id/juny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginRight="24sp"
+            android:onClick="onClicktjbm"
+            android:text="Junitha Bynum" />
+
+        <Button
+            android:id="@+id/tasha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginRight="24sp"
+            android:onClick="onClicktsh"
+            android:text="Tasha Cobbs" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:onClick="bck"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24sp"
+        android:layout_marginRight="24sp"
+        android:layout_marginBottom="23dp" />
+
+
+</RelativeLayout>
