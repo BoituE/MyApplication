@@ -16,9 +16,8 @@ public class Scripture_Question4 extends AppCompatActivity {
 
     public void onClickfls(View view) {
         Intent i = new Intent(Scripture_Question4.this, Scripture_Question5.class);
-        startActivity(i);
         MainActivity.score = MainActivity.score +1;
-        Toast.makeText(this, ""+MainActivity.score, Toast.LENGTH_SHORT).show();
+        startActivity(i);
     }
     public void onClicktr(View view) {
         Intent i = new Intent(Scripture_Question4.this, Scripture_Question5.class);

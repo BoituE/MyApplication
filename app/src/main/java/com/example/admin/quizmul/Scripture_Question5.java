@@ -26,7 +26,6 @@ public class Scripture_Question5 extends AppCompatActivity {
         Intent i = new Intent(Scripture_Question5.this, MainActivity.class);
         startActivity(i);
         MainActivity.score = MainActivity.score +1;
-        Toast.makeText(this, ""+MainActivity.score, Toast.LENGTH_SHORT).show();
          GoFinalScore();
     }
 
